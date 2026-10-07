@@ -51,87 +51,67 @@ const playPageFlipSound = () => {
   }
 };
 
-// Love Letter Paragraphs with Word-by-Word Streaming Data
+// Love Letter Paragraphs for Ren (Sincere, Warm, Non-Alay)
 const rawLetterSections = [
   {
     id: 'intro',
     type: 'p',
-    text: "Kalau kamu sudah sampai di halaman ini, berarti kamu sudah melihat sedikit demi sedikit kenangan yang kita punya. Mungkin semuanya terlihat sederhana. Hanya beberapa foto, beberapa halaman, dan lagu yang menemani. Tapi di balik semuanya, ada banyak waktu, pikiran, dan perasaan yang ingin aku sampaikan.",
+    text: "Hai Ren. Kalau kamu membaca ini, artinya kamu sudah membuka ruang kecil yang sengaja kubuat untukmu. Mungkin bentuknya sederhana, hanya sebuah aplikasi kecil dan selembar kenangan. Tapi di dalamnya ada ketulusan yang ingin kusampaikan.",
   },
   {
     id: 'h1',
     type: 'accent_h',
-    text: "Aku ingin mengucapkan terima kasih.",
+    text: "Terima kasih sudah hadir.",
   },
   {
     id: 'p1',
     type: 'p',
-    text: "Terima kasih karena sudah hadir dalam hidupku. Terima kasih karena sudah menjadi tempatku bercerita, tertawa, mengeluh, bahkan diam tanpa harus menjelaskan apa pun. Kehadiranmu membuat hari-hariku terasa berbeda. Banyak hal yang dulunya terasa biasa saja, sekarang menjadi sesuatu yang selalu ingin kuingat karena ada kamu di dalamnya.",
+    text: "Terima kasih telah menjadi bagian dari hariku. Kehadiranmu membawa warna tersendiri—suasana yang tenang, nyaman, dan selalu menyenangkan. Ada banyak momen sederhana yang mungkin bagimu biasa saja, tapi bagiku selalu berkesan karena ada kamu di sana.",
   },
   {
     id: 'p2',
     type: 'p',
-    text: "Aku sering memperhatikan hal-hal kecil tentangmu. Cara kamu tersenyum ketika sedang benar-benar bahagia. Pose andalanmu ketika berfoto. Tatapanmu yang mungkin terlihat jutek bagi orang lain, tapi justru selalu terlihat menggemaskan di mataku. Cara kamu memakai kebaya yang membuatku selalu terpana. Semua itu mungkin terlihat sederhana, tapi entah kenapa selalu berhasil membuatku semakin menyayangimu.",
+    text: "Aku selalu menyukai caramu menjadi diri sendiri. Senyummu yang natural, tatapanmu yang tenang, dan kehangatan yang selalu terasa setiap kali kita berinteraksi. Kamu punya pesona tersendiri yang membuat siapapun di sekitarmu merasa nyaman.",
   },
   {
     id: 'h2',
     type: 'accent_h',
-    text: "Aku juga ingin meminta maaf.",
+    text: "Doa dan Harapanku untukmu.",
   },
   {
     id: 'p3',
     type: 'p',
-    text: "Mungkin ada waktu ketika aku mengecewakanmu. Ada kata-kata yang kurang baik, sikap yang kurang peka, atau keputusan yang membuatmu sedih. Aku tidak bisa mengubah apa yang sudah terjadi, tetapi aku ingin terus belajar supaya bisa menjadi seseorang yang lebih baik untukmu. Bukan karena aku harus sempurna, tetapi karena kamu pantas mendapatkan seseorang yang selalu berusaha.",
+    text: "Semoga langkahmu ke depan selalu dipermudah. Semoga kamu selalu dikelilingi oleh hal-hal baik, kesehatan, kebahagiaan, serta orang-orang yang tulus menyayangimu. Jangan pernah ragu pada kemampuan dirimu sendiri, karena kamu hebat lebih dari yang kamu bayangkan.",
   },
   {
     id: 'p4',
     type: 'p',
-    text: "Aku tidak tahu bagaimana masa depan akan berjalan. Akan ada hari-hari yang mudah, dan mungkin ada juga hari-hari yang sulit. Tapi satu hal yang ingin selalu kuusahakan adalah tetap memilihmu, setiap hari, dalam keadaan apa pun.",
-  },
-  {
-    id: 'p5',
-    type: 'p',
-    text: "Hadiah kecil ini mungkin tidak sempurna. Tampilannya mungkin belum seindah yang kamu bayangkan saat pertama kali melihatnya. Tapi sama seperti hubungan kita, semuanya dibuat sedikit demi sedikit, diperbaiki pelan-pelan, dan dijaga dengan sepenuh hati.",
-  },
-  {
-    id: 'p6',
-    type: 'p',
-    text: "Semoga setiap foto di sini bisa mengingatkanmu bahwa ada seseorang yang selalu mengagumimu, bahkan di saat kamu merasa biasa-biasa saja.",
+    text: "Meskipun foto di sini sederhana, setiap sudutnya kupilih dan kuhias dengan rasa menghargai yang besar. Semoga kado kecil ini bisa membawa senyuman di wajahmu hari ini.",
   },
   {
     id: 'b1',
     type: 'bullet',
-    text: "✦ Terima kasih sudah menjadi dirimu sendiri.",
+    text: "✦ Terima kasih telah menjadi sosok yang hangat.",
   },
   {
     id: 'b2',
     type: 'bullet',
-    text: "✦ Terima kasih sudah bertahan sejauh ini bersamaku.",
+    text: "✦ Tetaplah menjadi dirimu sendiri yang luar biasa.",
   },
   {
     id: 'b3',
     type: 'bullet',
-    text: "✦ Dan terima kasih karena masih memberiku kesempatan untuk terus berjalan di sampingmu.",
+    text: "✦ Semoga harimu selalu dipenuhi kedamaian dan kebahagiaan.",
   },
   {
     id: 's_love',
     type: 'signoff_love',
-    text: "Aku sayang kamu.",
+    text: "Salam hangat,",
   },
   {
     id: 's_today',
     type: 'signoff_sub',
-    text: "Hari ini.",
-  },
-  {
-    id: 's_tomorrow',
-    type: 'signoff_sub',
-    text: "Besok.",
-  },
-  {
-    id: 's_forever',
-    type: 'signoff_sub',
-    text: "Dan selamanya.",
+    text: "Untuk Ren yang teristimewa.",
   },
   {
     id: 's_heart',
@@ -199,68 +179,78 @@ export default function ScrapbookBook({
     { id: 0, label: 'Sampul', icon: '🎀' },
     { id: 1, label: 'Kenalan', icon: '🌸' },
     { id: 2, label: 'Memori', icon: '🌸' },
-    { id: 3, label: '5 Potret', icon: '📸' },
+    { id: 3, label: '5 Aksesoris', icon: '📸' },
     { id: 4, label: 'Lagu Kita', icon: '🎵' },
-    { id: 5, label: 'Surat Cinta', icon: '💌' },
+    { id: 5, label: 'Surat', icon: '💌' },
     { id: 6, label: 'Harapan', icon: '✨' },
   ];
 
-  // The 5 Special Photos with their exact quotes requested by user
+  // Ren's Photo displayed with 5 Cute Accessory Themes
   const desyPhotos = [
     {
       id: 1,
-      image: '/luc 1.jpeg',
-      tabLabel: '1. Senja',
-      title: 'Pesona Pertama',
-      caption: 'Kamu selalu cantik dalam keadaan apa pun, tapi entah kenapa, di foto ini aku benar-benar terpukau',
-      date: 'Senja di Tepi Pantai',
-      stamp: 'TERPUKAU 🌸',
+      image: '/ren-photo.jpeg',
+      tabLabel: '1. Pita Pink 🎀',
+      title: 'Pita & Washi Tape',
+      caption: 'Senyummu yang selalu membawa ketenangan dan kehangatan tersendiri.',
+      date: 'Potret Teristimewa Ren 🤍',
+      stamp: 'SWEET REN 🌸',
       pinColor: '#ff758f',
       accentColor: '#ffe4ea',
+      badgeIcon: '🎀',
+      decoration: 'ribbon',
     },
     {
       id: 2,
-      image: '/luc 2.jpeg',
-      tabLabel: '2. Pose Andalan',
-      title: 'Pose Andalan',
-      caption: 'Pose andalan kamu... dan entah kenapa, aku nggak pernah bosan melihatnya.',
-      date: 'Suasana Hangat Kafe',
+      image: '/ren-photo.jpeg',
+      tabLabel: '2. Buket Bunga 🌸',
+      title: 'Bunga & Klip Emas',
+      caption: 'Sederhana, tapi kamu selalu terlihat cantik dan berkesan di mataku.',
+      date: 'Keindahan Yang Alami ✨',
       stamp: 'FAVORITE ♡',
       pinColor: '#ffd700',
       accentColor: '#fef3c7',
+      badgeIcon: '🌸',
+      decoration: 'flower',
     },
     {
       id: 3,
-      image: '/luc 3.jpeg',
-      tabLabel: '3. Menggemaskan',
-      title: 'Hangat & Menggemaskan',
-      caption: 'Mungkin bagi orang lain kamu terlihat sedikit judes. Tapi yang aku lihat justru seseorang yang sangat menggemaskan. Tatapanmu mungkin terlihat tenang, tapi bagiku selalu terasa hangat',
-      date: 'Hammock di Bawah Teduh',
-      stamp: 'SO SWEET ✨',
+      image: '/ren-photo.jpeg',
+      tabLabel: '3. Stiker Lucu 🧸',
+      title: 'Karakter Kawaii',
+      caption: 'Tatapan dan ekspresimu yang selalu menggemaskan dan bikin nyaman.',
+      date: 'Kehangatan Sosok Ren',
+      stamp: 'SO WARM ✨',
       pinColor: '#10b981',
       accentColor: '#dcfce7',
+      badgeIcon: '🧸',
+      decoration: 'kawaii',
     },
     {
       id: 4,
-      image: '/luc 4.jpeg',
-      tabLabel: '4. Idulfitri',
-      title: 'Hari Kemenangan',
-      caption: 'Hari itu adalah Idulfitri, tapi yang paling aku ingat justru kamu. Tetap dengan pose andalanmu, tetap berhasil membuatku tersenyum setiap kali melihatnya',
-      date: 'Momen Idulfitri',
-      stamp: 'IDULFITRI 🤍',
+      image: '/ren-photo.jpeg',
+      tabLabel: '4. Frame Bintang ✨',
+      title: 'Filmstrip Bintang',
+      caption: 'Salah satu potret favorit yang tak pernah bosan untuk dilihat.',
+      date: 'Kenangan Abadi 🌟',
+      stamp: 'SPECIAL ⭐️',
       pinColor: '#0ea5e9',
       accentColor: '#e0f2fe',
+      badgeIcon: '✨',
+      decoration: 'star',
     },
     {
       id: 5,
-      image: '/luc 5.jpeg',
-      tabLabel: '5. Gaun Anggun',
-      title: 'Bidadari yang Bersinar',
-      caption: 'Melihatmu mengenakan gaun ini benar-benar membuatku terpana. Bukan hanya karena penampilannya, tetapi karena setiap senyummu selalu berhasil membuat semuanya terasa lebih indah',
-      date: 'Malam Istimewa',
-      stamp: 'ANGGUN 👑',
+      image: '/ren-photo.jpeg',
+      tabLabel: '5. Mahkota Anggun 👑',
+      title: 'Mahkota Royal',
+      caption: 'Potret Ren yang selalu anggun, istimewa, dan penuh dengan pesona.',
+      date: 'Momen Spesial Ren',
+      stamp: 'ELEGANT 👑',
       pinColor: '#f59e0b',
       accentColor: '#fef3c7',
+      badgeIcon: '👑',
+      decoration: 'crown',
     },
   ];
 
@@ -847,7 +837,7 @@ export default function ScrapbookBook({
                     marginBottom: '6px',
                   }}
                 >
-                  Desy's Memory Book
+                  Ren's Memory Book
                 </h1>
 
                 <div
@@ -868,7 +858,7 @@ export default function ScrapbookBook({
                     marginBottom: '4px',
                   }}
                 >
-                  Untuk Desy Eirlea Driselle 🤍
+                  Untuk Ren 🤍
                 </p>
 
                 <p
@@ -879,7 +869,7 @@ export default function ScrapbookBook({
                     fontStyle: 'italic',
                   }}
                 >
-                  Dibuat dengan seluruh ketulusan & cinta 🤍
+                  Dibuat dengan seluruh ketulusan & rasa menghargai 🤍
                 </p>
               </div>
 
@@ -908,7 +898,7 @@ export default function ScrapbookBook({
           )}
 
           {/* ======================================================= */}
-          {/* PAGE 1: PAMERAN 01 — AWAL KISAH & FOTO 1 (SENJA) */}
+          {/* PAGE 1: PAMERAN 01 — AWAL KISAH & POTRET REN */}
           {/* ======================================================= */}
           {currentPage === 1 && (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -931,14 +921,14 @@ export default function ScrapbookBook({
                   PAMERAN 01
                 </p>
                 <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.12rem', color: '#2e1c24', margin: '0 0 2px 0', lineHeight: 1.25 }}>
-                  Awalan baru buat aku yaitu kenal kamu lebih dalam
+                  Kisah Singkat Bersamamu
                 </h3>
                 <p style={{ fontSize: '0.68rem', color: '#8c6571', margin: 0, fontStyle: 'italic' }}>
-                  Kenangan Manis Bersamamu 🤍
+                  Kenangan Bersama Ren 🤍
                 </p>
               </div>
 
-              {/* Centerpiece Polaroid: Foto 1 (Sunset Pantai) */}
+              {/* Centerpiece Polaroid: Ren's Photo */}
               <div
                 className="polaroid-card"
                 onClick={() => handleOpenZoom(desyPhotos[0])}
@@ -947,15 +937,30 @@ export default function ScrapbookBook({
                   padding: '8px 8px 14px',
                   transform: 'rotate(-2deg)',
                   marginBottom: '10px',
+                  position: 'relative',
                 }}
               >
+                {/* Cute Washi Tape Decorative Sticker */}
+                <div
+                  style={{
+                    position: 'absolute',
+                    top: '-9px',
+                    right: '18px',
+                    width: '55px',
+                    height: '16px',
+                    background: 'rgba(255, 182, 193, 0.8)',
+                    boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
+                    zIndex: 25,
+                    transform: 'rotate(5deg)',
+                  }}
+                />
+
                 {/* 3D Pushpin */}
                 <div
                   style={{
                     position: 'absolute',
                     top: '-8px',
-                    left: '50%',
-                    transform: 'translateX(-50%)',
+                    left: '20px',
                     width: '16px',
                     height: '16px',
                     borderRadius: '50%',
@@ -968,8 +973,8 @@ export default function ScrapbookBook({
 
                 <div style={{ position: 'relative' }}>
                   <img
-                    src="/luc 1.jpeg"
-                    alt="Desy 1"
+                    src="/ren-photo.jpeg"
+                    alt="Ren 1"
                     style={{ width: '100%', height: '175px', objectFit: 'cover', borderRadius: '4px' }}
                   />
                   <div
@@ -1001,7 +1006,7 @@ export default function ScrapbookBook({
                     lineHeight: '1.3',
                   }}
                 >
-                  "Kamu selalu cantik dalam keadaan apa pun, tapi entah kenapa, di foto ini aku benar-benar terpukau" 🌸
+                  "Senyummu yang tenang selalu berhasil membawa kedamaian." 🌸
                 </p>
               </div>
 
@@ -1040,7 +1045,7 @@ export default function ScrapbookBook({
                     margin: 0,
                   }}
                 >
-                  "Dari awal kita saling sapa, ada ketenangan yang gak pernah aku rasakan sebelumnya. Setiap cerita kecil bersamamu adalah lembaran baru yang ingin terus kubaca selamanya."
+                  "Setiap momen sederhana bersamamu membawa suasana yang selalu menyenangkan. Ada ketenangan yang nyaman setiap kali kita berbicara."
                 </p>
               </div>
 
@@ -1067,7 +1072,7 @@ export default function ScrapbookBook({
           )}
 
           {/* ======================================================= */}
-          {/* PAGE 2: PAMERAN 02 — FIRST DATE & FOTO 2 (POSE ANDALAN KAFE) */}
+          {/* PAGE 2: PAMERAN 02 — POTONGAN MEMORI FAVORIT */}
           {/* ======================================================= */}
           {currentPage === 2 && (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -1132,11 +1137,11 @@ export default function ScrapbookBook({
                     paddingTop: '2px',
                   }}
                 >
-                  Banyak hal yang dulunya terasa biasa saja, sekarang menjadi sesuatu yang selalu ingin kuingat karena ada kamu di dalamnya. Cara kamu tersenyum ketika sedang benar-benar bahagia selalu berhasil menghangatkan hariku 🤍
+                  Banyak hal sederhana yang dulunya biasa saja, kini terasa berharga karena ada kamu di sana. Senyum dan kehangatanmu selalu berhasil membuat suasana hati menjadi lebih cerah 🤍
                 </p>
               </div>
 
-              {/* Centerpiece Polaroid: Foto 2 (Pose Andalan Kafe) */}
+              {/* Centerpiece Polaroid: Ren's Photo */}
               <div
                 className="polaroid-card"
                 onClick={() => handleOpenZoom(desyPhotos[1])}
@@ -1145,12 +1150,27 @@ export default function ScrapbookBook({
                   padding: '8px 8px 14px',
                   transform: 'rotate(2deg)',
                   marginBottom: '10px',
+                  position: 'relative',
                 }}
               >
+                {/* Cute Flower Sticker Overlay */}
+                <div
+                  style={{
+                    position: 'absolute',
+                    top: '-10px',
+                    right: '-6px',
+                    width: '32px',
+                    height: '32px',
+                    zIndex: 25,
+                  }}
+                >
+                  🌸
+                </div>
+
                 <div style={{ position: 'relative' }}>
                   <img
-                    src="/luc 2.jpeg"
-                    alt="Desy 2"
+                    src="/ren-photo.jpeg"
+                    alt="Ren 2"
                     style={{ width: '100%', height: '165px', objectFit: 'cover', borderRadius: '4px' }}
                   />
                   <div
@@ -1182,7 +1202,7 @@ export default function ScrapbookBook({
                     lineHeight: '1.3',
                   }}
                 >
-                  "Pose andalan kamu... dan entah kenapa, aku nggak pernah bosan melihatnya." ♡
+                  "Salah satu potret Ren yang selalu teristimewa." ♡
                 </p>
               </div>
 
@@ -1209,7 +1229,7 @@ export default function ScrapbookBook({
           )}
 
           {/* ======================================================= */}
-          {/* PAGE 3: PAMERAN 03 — 5 POTRET KENANGAN DESY EIRLEA DRISELLE (INTERACTIVE SHOWCASE) */}
+          {/* PAGE 3: PAMERAN 03 — 5 AKSESORIS LUCU POTRET REN (INTERACTIVE SHOWCASE) */}
           {/* ======================================================= */}
           {currentPage === 3 && (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -1232,10 +1252,10 @@ export default function ScrapbookBook({
                   PAMERAN 03
                 </p>
                 <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.12rem', color: '#2e1c24', margin: '0 0 2px 0' }}>
-                  5 Potret Kenangan Desy Eirlea Driselle
+                  5 Gaya Aksesoris Potret Ren ✨
                 </h3>
                 <p style={{ fontSize: '0.68rem', color: '#8c6571', margin: 0, fontStyle: 'italic' }}>
-                  Ketuk foto untuk memperbesar (zoom) 🔍
+                  Geser tab / tombol untuk melihat aksesoris lucu 🎀
                 </p>
               </div>
 
@@ -1413,7 +1433,7 @@ export default function ScrapbookBook({
                 </button>
               </div>
 
-              {/* Active Polaroid Card Display with Touch Swipe Support */}
+              {/* Active Polaroid Card Display with Cute Accessory Overlays & Touch Swipe Support */}
               {(() => {
                 const currentPhoto = desyPhotos[activePhotoIdx];
                 return (
@@ -1441,7 +1461,7 @@ export default function ScrapbookBook({
                     style={{
                       width: '220px',
                       padding: '8px 8px 12px',
-                      transform: `rotate(${currentPhoto.rotation}deg)`,
+                      transform: 'rotate(-1deg)',
                       marginBottom: '8px',
                       position: 'relative',
                       cursor: 'pointer',
@@ -1463,6 +1483,164 @@ export default function ScrapbookBook({
                         border: '1.5px solid #ffffff',
                       }}
                     />
+
+                    {/* Dynamic Cute Accessories Overlays depending on decoration theme */}
+                    {currentPhoto.decoration === 'ribbon' && (
+                      <>
+                        <div
+                          style={{
+                            position: 'absolute',
+                            top: '-10px',
+                            left: '8px',
+                            fontSize: '1.4rem',
+                            zIndex: 25,
+                            filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.15))',
+                          }}
+                        >
+                          🎀
+                        </div>
+                        <div
+                          style={{
+                            position: 'absolute',
+                            top: '-8px',
+                            right: '12px',
+                            width: '50px',
+                            height: '14px',
+                            background: 'rgba(255, 182, 193, 0.75)',
+                            boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
+                            zIndex: 22,
+                            transform: 'rotate(4deg)',
+                          }}
+                        />
+                      </>
+                    )}
+
+                    {currentPhoto.decoration === 'flower' && (
+                      <>
+                        <div
+                          style={{
+                            position: 'absolute',
+                            top: '-12px',
+                            right: '-8px',
+                            width: '40px',
+                            height: '40px',
+                            zIndex: 25,
+                          }}
+                        >
+                          <img
+                            src="/bunga bucket no bg.png"
+                            alt="Flower Decoration"
+                            style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                          />
+                        </div>
+                        <div
+                          style={{
+                            position: 'absolute',
+                            bottom: '30px',
+                            left: '-6px',
+                            fontSize: '1.2rem',
+                            zIndex: 25,
+                          }}
+                        >
+                          🌸
+                        </div>
+                      </>
+                    )}
+
+                    {currentPhoto.decoration === 'kawaii' && (
+                      <>
+                        <div
+                          style={{
+                            position: 'absolute',
+                            top: '-14px',
+                            right: '-4px',
+                            width: '42px',
+                            height: '42px',
+                            zIndex: 25,
+                          }}
+                        >
+                          <img
+                            src="/lucu1 no bg.png"
+                            alt="Cute Kawaii Accessory"
+                            style={{ width: '100%', height: '100%', objectFit: 'contain', filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.15))' }}
+                          />
+                        </div>
+                        <div
+                          style={{
+                            position: 'absolute',
+                            bottom: '30px',
+                            left: '-6px',
+                            fontSize: '1.3rem',
+                            zIndex: 25,
+                          }}
+                        >
+                          🧸
+                        </div>
+                      </>
+                    )}
+
+                    {currentPhoto.decoration === 'star' && (
+                      <>
+                        <div
+                          style={{
+                            position: 'absolute',
+                            top: '-10px',
+                            left: '8px',
+                            fontSize: '1.2rem',
+                            zIndex: 25,
+                            filter: 'drop-shadow(0 0 6px #ffd700)',
+                          }}
+                        >
+                          ✨
+                        </div>
+                        <div
+                          style={{
+                            position: 'absolute',
+                            top: '-10px',
+                            right: '8px',
+                            fontSize: '1.2rem',
+                            zIndex: 25,
+                            filter: 'drop-shadow(0 0 6px #ffd700)',
+                          }}
+                        >
+                          🌟
+                        </div>
+                      </>
+                    )}
+
+                    {currentPhoto.decoration === 'crown' && (
+                      <>
+                        <div
+                          style={{
+                            position: 'absolute',
+                            top: '-14px',
+                            left: '50%',
+                            transform: 'translateX(-50%)',
+                            fontSize: '1.5rem',
+                            zIndex: 25,
+                            filter: 'drop-shadow(0 2px 5px rgba(212, 160, 52, 0.5))',
+                          }}
+                        >
+                          👑
+                        </div>
+                        <div
+                          style={{
+                            position: 'absolute',
+                            bottom: '28px',
+                            right: '-6px',
+                            width: '36px',
+                            height: '36px',
+                            zIndex: 25,
+                          }}
+                        >
+                          <img
+                            src="/bunga 1 no bg.png"
+                            alt="Flower Badge"
+                            style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                          />
+                        </div>
+                      </>
+                    )}
 
                     {/* Rubber Stamp Badge */}
                     <div
@@ -1746,10 +1924,10 @@ export default function ScrapbookBook({
                   {/* Track Details */}
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <p style={{ fontSize: '0.8rem', fontWeight: '700', margin: '0 0 2px 0', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                      Lagu Spesial Untukmu 🎵
+                      bad - wave to earth 🎵
                     </p>
                     <p style={{ fontSize: '0.68rem', color: 'rgba(255,255,255,0.7)', margin: '0 0 4px 0' }}>
-                      Our Favorite Song · Special for Desy 🤍
+                      Lagu Favorit · Special for Ren 🤍
                     </p>
 
                     <div style={{ display: 'flex', alignItems: 'flex-end', gap: '2px', height: '12px' }}>
@@ -1806,14 +1984,14 @@ export default function ScrapbookBook({
                   background: 'rgba(255, 117, 143, 0.1)',
                 }}
               >
-                <span>Buka Pameran 05: Surat Cinta 💌</span>
+                <span>Buka Pameran 05: Surat 💌</span>
                 <ChevronRight size={15} />
               </div>
             </div>
           )}
 
           {/* ======================================================= */}
-          {/* PAGE 5: PAMERAN 05 — AMPLOP 3D & FOTO 5 (GAUN ANGGUN) */}
+          {/* PAGE 5: PAMERAN 05 — AMPLOP 3D & FOTO REN */}
           {/* ======================================================= */}
           {currentPage === 5 && (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -1836,7 +2014,7 @@ export default function ScrapbookBook({
                   PAMERAN 05
                 </p>
                 <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.15rem', color: '#2e1c24', margin: 0 }}>
-                  Sepucuk Surat Dari Lubuk Hatiku
+                  Sepucuk Surat Untuk Ren
                 </h3>
               </div>
 
@@ -1912,7 +2090,7 @@ export default function ScrapbookBook({
                     </div>
 
                     <p style={{ position: 'absolute', bottom: '10px', fontSize: '0.78rem', color: '#831843', fontWeight: '600' }}>
-                      Ketuk segel untuk membuka surat 💌
+                      Ketuk segel untuk membaca surat 💌
                     </p>
                   </div>
                 ) : (
@@ -1967,7 +2145,7 @@ export default function ScrapbookBook({
                       ) : (
                         <>
                           <span style={{ fontSize: '0.68rem', color: '#8c6571', fontStyle: 'italic' }}>
-                            Surat cinta selesai ditulis 💌
+                            Surat selesai ditulis 💌
                           </span>
                           <button
                             onClick={handleRestartTyping}
@@ -1988,12 +2166,12 @@ export default function ScrapbookBook({
                       )}
                     </div>
 
-                    {/* Centered Keepsake Polaroid: Foto 5 (Gaun / Kebaya Anggun) with Washi Tape */}
+                    {/* Centered Keepsake Polaroid: Ren's Photo */}
                     <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '14px' }}>
                       <div
-                        key="letter-polaroid-foto-5"
+                        key="letter-polaroid-ren-photo"
                         className="polaroid-card"
-                        onClick={() => handleOpenZoom(desyPhotos[4])}
+                        onClick={() => handleOpenZoom(desyPhotos[0])}
                         style={{
                           width: '145px',
                           padding: '7px 7px 10px',
@@ -2019,12 +2197,12 @@ export default function ScrapbookBook({
                           }}
                         />
                         <img
-                          src="/luc 5.jpeg"
-                          alt="Desy Gaun Anggun"
+                          src="/ren-photo.jpeg"
+                          alt="Ren Photo"
                           style={{ width: '100%', height: '145px', objectFit: 'cover', borderRadius: '4px', display: 'block' }}
                         />
                         <p style={{ fontFamily: 'var(--font-handwriting)', fontSize: '0.8rem', color: '#704250', textAlign: 'center', margin: '4px 0 0 0', lineHeight: 1.2 }}>
-                          anggunmu bidadari ♡ (zoom 🔍)
+                          Potret Ren 🤍 (zoom 🔍)
                         </p>
                       </div>
                     </div>
@@ -2033,7 +2211,7 @@ export default function ScrapbookBook({
                     <div style={{ textAlign: 'left', marginBottom: '8px' }}>
                       <span style={{ fontSize: '1.1rem' }}>💌</span>
                       <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#c9184a', margin: '2px 0 0 0', fontWeight: '700' }}>
-                        Hai, sayang.
+                        Hai, Ren.
                       </h4>
                     </div>
 
@@ -2233,10 +2411,10 @@ export default function ScrapbookBook({
                   APRESIASI
                 </p>
                 <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.05rem', color: '#2e1c24', margin: '0 0 4px 0', fontStyle: 'italic' }}>
-                  Thank You for Staying untuk Desy...
+                  Spesial Untuk Ren...
                 </h4>
                 <p style={{ fontSize: '0.78rem', color: '#8c6571', margin: '0 0 8px 0' }}>
-                  Terima kasih karena tetap ada dan menemani perjalananku.
+                  Terima kasih telah hadir dan selalu membawa kehangatan.
                 </p>
 
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '5px', justifyContent: 'center' }}>
@@ -2579,7 +2757,7 @@ export default function ScrapbookBook({
               MAKE A WISH
             </span>
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.35rem', color: '#2e1c24', margin: '4px 0 12px 0' }}>
-              Harapan Untuk Desy ✨
+              Harapan Untuk Ren ✨
             </h3>
 
             {/* Cake Graphic */}
@@ -2652,7 +2830,7 @@ export default function ScrapbookBook({
             {!candleBlown ? (
               <>
                 <p style={{ fontFamily: 'var(--font-handwriting)', fontSize: '1.2rem', color: '#4a2c38', marginBottom: '14px' }}>
-                  Pikirkan satu harapan terindahmu sebelum meniup lilinnya ya sayang... 🤍
+                  Pikirkan satu harapan terindahmu sebelum meniup lilinnya ya Ren... 🤍
                 </p>
                 <button
                   onClick={handleBlowCandle}

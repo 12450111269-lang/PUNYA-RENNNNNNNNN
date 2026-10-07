@@ -14,7 +14,7 @@ export default function PasscodeScreen({ onUnlock }) {
   const [pin, setPin] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
   
-  const CORRECT_PIN = '111225';
+  const CORRECT_PIN = '091018';
   const PIN_LENGTH = 6;
 
   const bgParticles = Array.from({ length: 16 }).map((_, i) => ({
@@ -95,7 +95,7 @@ export default function PasscodeScreen({ onUnlock }) {
   };
 
   const verifyPin = (enteredPin) => {
-    if (enteredPin === CORRECT_PIN || enteredPin === '111225' || enteredPin === '1112' || enteredPin === '1234') {
+    if (enteredPin === CORRECT_PIN || enteredPin === '091018') {
       const tl = gsap.timeline();
       
       tl.to(dotsRef.current, {
@@ -118,7 +118,7 @@ export default function PasscodeScreen({ onUnlock }) {
         }
       });
     } else {
-      setErrorMsg('Kode sandi belum tepat, coba lagi ya sayang 🤍');
+      setErrorMsg('Kode sandi belum tepat, coba lagi ya Ren 🤍');
       
       gsap.to(dotsRef.current, {
         x: [-12, 12, -8, 8, -4, 4, 0],
@@ -269,7 +269,7 @@ export default function PasscodeScreen({ onUnlock }) {
               letterSpacing: '0.3px',
             }}
           >
-            For You, Desy 🤍
+            For You, Ren 🤍
           </h2>
           <p
             style={{
@@ -293,7 +293,7 @@ export default function PasscodeScreen({ onUnlock }) {
               display: 'inline-block',
             }}
           >
-            Clue: 111225 ❤️
+            Clue: 091018 ❤️
           </p>
         </div>
 

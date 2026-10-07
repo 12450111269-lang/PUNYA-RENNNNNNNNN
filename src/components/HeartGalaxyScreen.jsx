@@ -236,7 +236,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
         <h2
           style={{
             fontFamily: 'var(--font-display)',
-            fontSize: '2rem',
+            fontSize: '2.1rem',
             fontWeight: '700',
             color: '#ffffff',
             letterSpacing: '0.5px',
@@ -245,7 +245,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
             lineHeight: '1.2',
           }}
         >
-          Untuk DESY EIRLEA DRISELLE
+          Untuk REN
         </h2>
 
         <p
@@ -257,7 +257,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
             textShadow: '0 0 10px rgba(255, 133, 162, 0.6)',
           }}
         >
-          Spesial Untukmu Sayang 🤍
+          Spesial Untukmu 🤍
         </p>
       </div>
 
@@ -454,7 +454,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
             whiteSpace: 'nowrap',
           }}
         >
-          ✦ Tiap bintang mengingatkanku padamu
+          ✦ Setiap detik terasa tenang bersamamu
         </div>
 
         {/* Quote 2: Mid-Left */}
@@ -473,7 +473,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
             whiteSpace: 'nowrap',
           }}
         >
-          ✦ Kamu pusat dari segalanya
+          ✦ Kehadiranmu selalu membawa kehangatan
         </div>
 
         {/* Quote 3: Bottom-Left */}
@@ -492,7 +492,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
             whiteSpace: 'nowrap',
           }}
         >
-          ✦ Diantara jutaan, aku memilihmu
+          ✦ Sederhana, tapi kamu selalu yang teristimewa
         </div>
 
         {/* Quote 4: Bottom-Right */}
@@ -511,7 +511,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
             whiteSpace: 'nowrap',
           }}
         >
-          ✦ Kamu, seluruh semestaku
+          ✦ Senang bisa berjalan bersamamu
         </div>
 
         {/* CENTER 3D RADIANT GLOWING HEART */}
@@ -568,8 +568,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
                 gap: '8px',
               }}
             >
-              <span>ketukk dulu ya sayang</span>
-              <span style={{ fontSize: '1.2rem' }}>✨</span>
+              <span>ketuk dulu ya ✨</span>
             </p>
           </div>
         ) : (
@@ -591,7 +590,7 @@ export default function HeartGalaxyScreen({ onContinue, onPlayMusic }) {
               }}
             >
               <Music size={14} className="animate-spin" />
-              <span>Lagu diputar spesial untukmu 🎵</span>
+              <span>wave to earth - bad 🎵</span>
             </div>
 
             {/* Glowing CTA Button */}
